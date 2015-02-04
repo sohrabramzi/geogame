@@ -1,0 +1,184 @@
+body {
+    font-family: Arial;
+    font-size: 14px;
+}
+.logo {
+    font-size: 100px;
+    font-weight: bolder;
+    letter-spacing: -6px;
+    color: #222;
+    margin: 20px 30px;
+}
+.logo .number {
+    color: #222;
+    opacity: 0.1;
+}
+.navigation {
+    margin-left: 33px;
+}
+.navigation a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #222;
+    background: #222;
+    color: #fff;
+}
+.navigation a:hover {
+    color: #222;
+    background: transparent;
+}
+.container {
+
+    padding: 20px;
+    margin: 33px;
+}
+.container a {
+    color: #222;
+}
+.container table {
+    font-size: 11px;
+    margin-top: 20px;
+}
+.container table thead td {
+    background-color: #f5f5f5;
+    padding: 4px 10px;
+}
+.container table tbody td {
+    padding: 4px 10px;
+}
+.container .box {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+.container input {
+    background-color: #f5f5f5;
+    border: 0;
+    padding: 5px 10px;
+}
+.container input[type="submit"] {
+    background-color: #ccc;
+    cursor: pointer;
+}
+.container input[type="submit"]:hover {
+    background-color: #222;
+    color: #fff;
+}
+.container button {
+    background-color: #ccc;
+    border: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.container button:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+.feedback {
+    border: 1px solid black;
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.feedback.error {
+    border: 1px solid red;
+    color: red;
+}
+.feedback.succes {
+    border: 1px solid green;
+    color: green;
+}
+
+/* input boxes */
+/* html5 reset. this is necessary to properly align input fields in html5 */
+input, select, textarea {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+
+input {
+    display: block;
+    margin-bottom: 15px;
+    min-width: 200px;
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border: 1px solid #ddd;
+    color: #555;
+    font-weight: bold;
+    /*padding: 10px;    */
+
+    /*
+    border: 0;
+    background-color: #eaedf2;
+    color: #777;
+    font-weight: bold;
+    padding: 15px;
+    */
+}
+
+input[type="submit"] {
+    border: 0;
+    background-color: #2C2F3B;
+    color: #fff;
+    font-weight: bold;
+    /*padding: 10px;*/
+    cursor: pointer;
+}
+.remember-me-checkbox {
+    float: left; min-width: 0; margin: 3px 10px 15px 0;
+}
+.remember-me-label {
+    float:left; min-width: 0; font-size: 12px; color: #888;
+}
+.login-submit-button {
+    float: none; clear: both;
+}
+
+.login-form-password-pattern-reminder {
+    display: block;
+    /*width: 200px;*/
+    color: #999;
+    font-size: 11px;
+
+}
+
+.login-default-box {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+a.guess{
+    color: black !important;
+    text-decoration: none; 
+}
+#guess{
+    display: none;
+}
+
+#map-canvas2{
+    width: 500px;
+    height: 500px;
+}
+
+a.play{
+    text-decoration: hover;
+    color: red;
+}
